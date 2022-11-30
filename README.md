@@ -14,7 +14,7 @@
 - 拉取整个仓库(部分文件可以单独跑)
   ```
   // 以下几条命令 请不要带着 $/# 一起复制 这两个符号只是代表了所需权限
-  $ git clone https://github.com/limoruirui/misaka
+  $ git clone https://github.com/qczzxm/qinglong
 - 安装依赖
   ```
   $ pip3 install -r requirements.txt
@@ -31,9 +31,9 @@
 ### 二. 青龙面板
 - 拉取仓库
   ```
-  ql repo https://github.com/limoruirui/misaka.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
+  ql repo https://github.com/qczzxm/qinglong.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
   国内服务器太卡的话用下面这个
-  ql repo https://github.ruirui.fun/https://github.com/limoruirui/misaka.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
+  ql repo https://github.ruirui.fun/https://github.com/qczzxm/qinglong.git "" "backUp|tools|JS|logs|login"  "tools|JS|logs|login"
 - 安装依赖
   ```
   安装依赖时失败时 如果日志内有提示 gcc not found 的关键字 则进入docker容器中 依次执行
